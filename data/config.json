@@ -1,0 +1,38 @@
+{
+  "projeto": "Final Fantasy Store",
+  "criador": "Hugo Oliveira",
+  "autor": "FATEC",
+  "descricao": "Sistema institucional inspirado em Final Fantasy",
+  "servidor": {
+    "porta": 3000,
+    "host": "localhost",
+    "ambiente": "development"
+  },
+  "rotas": [
+    { "path": "/",               "arquivo": "index.html",                  "descricao": "Página inicial" },
+    { "path": "/quemsou",        "arquivo": "quemsou/quemsou.html",         "descricao": "Quem somos" },
+    { "path": "/produtos",       "arquivo": "produtos/produtos.html",       "descricao": "Lista de produtos" },
+    { "path": "/produtos/prod1", "arquivo": "produtos/prod1/prod1.html",   "descricao": "Star Platinum" },
+    { "path": "/produtos/prod2", "arquivo": "produtos/prod2/prod2.html",   "descricao": "The World" },
+    { "path": "/produtos/prod3", "arquivo": "produtos/prod3/prod3.html",   "descricao": "Crazy Diamond" },
+    { "path": "/estoque",        "arquivo": "data/estoque.json",           "descricao": "API de estoque (JSON)" },
+    { "path": "/config",         "arquivo": "data/config.json",            "descricao": "Configurações do projeto (JSON)" },
+    { "path": "/adm",            "arquivo": "adm/adm.html",                "descricao": "Painel administrativo" },
+    { "path": "/log",            "arquivo": "logs/YYYY-MM-DD.txt",         "descricao": "Relatório diário de log" }
+  ],
+  "logs": {
+    "pasta": "logs",
+    "formato_nome": "YYYY-MM-DD.txt",
+    "incluir_rota": true,
+    "incluir_metodo": true,
+    "incluir_status": true,
+    "incluir_timestamp": true
+  },
+  "assets": {
+    "css": "assets/style.css"
+  },
+  "erros": {
+    "404": "error/error.html",
+    "500": "inline"
+  }
+}

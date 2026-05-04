@@ -1,0 +1,165 @@
+/* ── Reset & Base ── */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #0e0e0e;
+    color: #e8e0d0;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* ── Container ── */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* ── Títulos ── */
+h1 {
+    font-size: 2rem;
+    color: #c9a84c;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6b3fa0;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #c9a84c;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #aaa;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* ── Links globais ── */
+a {
+    color: #c9a84c;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #6b3fa0;
+}
+
+/* ── Imagem principal ── */
+img.main-img {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #6b3fa0;
+    margin: 24px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ── Links da Home ── */
+.home-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.home-links a {
+    width: 160px;
+    padding: 18px;
+    background: #1a1a1a;
+    color: #c9a84c;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #6b3fa0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.home-links a:hover {
+    background: #6b3fa0;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+/* ── Botão Voltar ── */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 10px 20px;
+    background: transparent;
+    color: #aaa;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-voltar:hover {
+    border-color: #6b3fa0;
+    color: #c9a84c;
+}
+
+/* ── Grid de Cards ── */
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+/* ── Card ── */
+.card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    width: 240px;
+    padding: 16px;
+    border: 1px solid #2a2a2a;
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+    border-color: #6b3fa0;
+    transform: translateY(-4px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.card p {
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 7px 16px;
+    background: #6b3fa0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    transition: background 0.2s;
+}
+
+.card a:hover {
+    background: #8e5cc7;
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+{
+  "loja": "Final Fantasy Store",
+  "atualizado_em": "2025-01-01",
+  "produtos": [
+    {
+      "id": 1,
+      "slug": "prod1",
+      "nome": "Cloud Strife",
+      "descricao": "Figura detalhada do stand de Cloud Strife com pose icônica.",
+      "preco": 149.90,
+      "estoque": 12,
+      "disponivel": true,
+      "categoria": "action-figure"
+    },
+    {
+      "id": 2,
+      "slug": "prod2",
+      "nome": "Noel Luccis",
+      "descricao": "Action figure do stand de Noel Luccis com pose famosa.",
+      "preco": 179.90,
+      "estoque": 7,
+      "disponivel": true,
+      "categoria": "action-figure"
+    },
+    {
+        "id": 3,
+        "slug": "prod3",
+        "nome": "Yuna ff10",
+        "descricao": "Figura detalhada do stand de Yuna de Final Fantasy X.",
+        "preco": 159.9,
+        "estoque": 0,
+        "disponivel": false,
+        "categoria": "action-figure"
+    }
+  ]
+}
