@@ -3,6 +3,8 @@
 ## Sobre o Aluno
 - Nome: Hugo Oliveira
 - RA: 2171392511030
+- Nome: Gabriel Gutierres
+- RA: 2171392511017
 
 ## Descrição do Projeto
 
